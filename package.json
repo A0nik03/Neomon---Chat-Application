@@ -1,0 +1,13 @@
+{
+  "name": "neomon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build":"npm i --prefix backend && npm install --prefix neomon && npm run build --prefix neomon",
+    "start":"npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
